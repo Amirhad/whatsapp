@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  background: linear-gradient(179deg, #176eb5, #d545d7);
+  display: flex;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}

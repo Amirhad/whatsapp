@@ -1,0 +1,39 @@
+.Post_container {
+  width: 90%;
+
+  .post_header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: inherit;
+    padding: 15px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    .post_header_title {
+      h2 {
+        color: white;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .post{
+    width: inherit;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    background: rgba(250, 250, 250, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 20px;
+    padding: 10px;
+
+    h2{
+      margin-bottom: 30px;
+    }
+  }
+}
